@@ -1,0 +1,1260 @@
+$bg-color : #020617;
+$text-color : #FFFFFF;
+$dard-blue : #020617;
+$grey-text : #8D96B2;
+$gradient-pink : linear-gradient(58deg, #ef00ff, #6505ff9c);
+$gradient-blue : linear-gradient(45deg, #2c92ff, #280eed);
+
+.home {
+    background-position: 0 0, 10px 10px;
+    background-image: linear-gradient(0deg, #00000078 1px, transparent 1px),
+        /* Horizontal lines */
+        linear-gradient(90deg, #00000073 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: $bg-color;
+    overflow: hidden;
+    // padding: 6.2rem 10.2rem;
+
+    .secBtn {
+        background: $gradient-blue;
+        color: $text-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        max-width: 16rem;
+        gap: 16px;
+        white-space: nowrap;
+    }
+
+    .primaryBtn {
+        background-color: $text-color ;
+        color: #0E0D0D;
+        padding: 1rem 1.4rem;
+        border-radius: 20px;
+        white-space: nowrap;
+        border: none;
+        cursor: pointer;
+    }
+
+    .title {
+        color: $text-color;
+        font-size: 4.3rem;
+        font-weight: 700;
+        margin-bottom: 10rem;
+    }
+
+    .blueText {
+        background: $gradient-blue;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .pinkText {
+        background: $gradient-pink;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        margin-left: 1.4rem;
+    }
+
+    .bgGrid {
+        filter: brightness(0.5);
+        margin: -6.2rem -10.2rem;
+    }
+
+    .mainContent {
+        // position: absolute;
+        padding: 6rem 15rem;
+        // width: 100%;
+        top: 0;
+    }
+
+    .navBar {
+        margin-bottom: auto auto 3rem;
+        align-items: center;
+        display: flex;
+        color: $text-color;
+        justify-content: space-between;
+        padding: 2rem;
+        border-radius: 48px;
+        backdrop-filter: blur(10px);
+        border: 1px solid #ffffff80;
+    }
+
+    .navBtn {
+        color: $text-color;
+        width: 100%;
+        text-decoration: none;
+        font-size: 1.6rem;
+        max-width: 150px;
+    }
+
+    .navFlex {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .slick-slide>div {
+        margin: 0 10px;
+    }
+
+
+
+
+    .heading {
+        position: relative;
+
+        .BackgroundHead {
+            margin: auto;
+            width: 100%;
+            // position: relative;
+            transform: scale(1.4);
+            margin-top: 14rem;
+            // background-image: url(./Assets/BGPattern.png);
+        }
+
+        .head {
+            position: absolute;
+            text-align: center;
+            top: 50%;
+            // left: 21%;
+            // margin: auto;
+            // max-width: 58%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: grid;
+            justify-content: center;
+        }
+
+        .webText {
+            // background: $gradient-pink;
+            // -webkit-background-clip: text;
+            // background-clip: text;
+            // color: transparent;
+            margin-left: 4px;
+            background: $gradient-pink;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .mainHeading {
+            color: $text-color;
+            font-size: 8rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .mainHeading2 {
+            color: $text-color;
+            font-size: 8rem;
+            font-weight: 900;
+            white-space: nowrap;
+        }
+
+        .subHeading {
+            color: $text-color;
+            font-size: 2.4rem;
+            margin-top:3rem
+        }
+
+        .btnFlex {
+            display: flex;
+            margin: 5rem 0;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .btnFlex2 {
+            display: flex;
+        }
+
+        .secBtn {
+            background: $gradient-blue;
+            color: $text-color;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+            max-width: 16rem;
+            gap: 16px;
+            white-space: nowrap;
+        }
+
+        .tertiaryBtn {
+            // background: $gradient-blue;
+            color: $text-color;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            // padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+        }
+
+    }
+
+
+    .backedBy {
+        color: $text-color;
+        font-size: 2.4rem;
+
+
+        .backdBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 2rem;
+            border-radius: 32px;
+            background-color: #4f4e4edb;
+            border: 1px solid #9c9c9c;
+            margin: 4rem auto;
+            width: fit-content;
+            margin: 5.5rem auto;
+
+        }
+    }
+
+    .provides {
+
+        margin-top: 10rem;
+
+        .provideText {
+            color: $text-color;
+            font-size: 3.2rem;
+            max-width: 70%;
+            margin: auto;
+            padding: 3rem 0;
+            line-height: 1.4;
+        }
+
+        .blueText {
+            background: $gradient-blue;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+    }
+
+    .blockchain {
+        // position: relative;
+        margin-top: 10rem;
+
+        .blockFlex {
+            display: flex;
+            justify-items: center;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            align-items: center;
+            justify-items: center;
+            gap: 3rem;
+        }
+
+        .bgImg {
+            max-width: 80%;
+            margin: auto;
+            transform: scale(1.4);
+            max-height: 30vw
+        }
+
+        .blockchainText {
+
+            top: 9rem;
+            color: $text-color;
+            font-size: 4.8rem;
+            font-weight: 900;
+            margin: auto;
+        }
+
+        .blueText {
+            background: $gradient-blue;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .box {
+            display: grid;
+            grid-template-rows: 1fr;
+            gap: 10rem;
+            justify-content: center;
+            // position: absolute;
+            top: 12rem;
+            margin: auto;
+            width: -webkit-fill-available;
+        }
+    }
+
+    .powerUp {
+        // position: relative;
+        margin-top: 10rem;
+
+        .bgImg {
+            max-width: 80%;
+            margin: auto;
+            transform: scale(1.4);
+            object-fit: cover;
+            object-position: center top;
+            // max-height : 30vw
+        }
+
+        .powerUpText {
+            // position: absolute;
+            top: 0;
+            color: $text-color;
+            font-size: 4.8rem;
+            font-weight: 900;
+            margin: 8rem auto auto;
+            width: -webkit-fill-available;
+        }
+
+        .pinkText {
+            background: $gradient-pink;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-left: 1.4rem;
+        }
+
+        .powerSubText {
+            color: $text-color;
+            font-size: 2.4rem;
+            max-width: 65vw;
+            margin: 3rem auto;
+        }
+
+        .powerBox {
+            background-color: rgb(23 7 39);
+            padding: 5%;
+            border-radius: 3rem;
+            font-size: 3.2rem;
+            font-weight: 400;
+            border: 1px solid #ffffff7d;
+            position: relative;
+            text-align: left;
+            margin-top: 12rem;
+
+        }
+
+        .blueText {
+            background: $gradient-pink;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .text {
+            color: $text-color;
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+        }
+
+        .powerFlex>p {
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+
+        .assetImg {
+            position: absolute;
+            top: -8rem;
+            right: 0;
+        }
+    }
+
+    .gamePlay {
+        display: flex;
+        gap: 2rem;
+        margin-top: 10rem;
+
+        .text {
+            font-size: 2.4rem;
+            color: $text-color;
+            text-align: left;
+        }
+
+        .playBox {
+            background: linear-gradient(34deg, #7c2d92, #020617);
+            border-radius: 3.2rem;
+            padding: 4rem 2rem 2rem 4rem;
+            display: flex;
+            justify-content: center;
+            // align-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.518);
+
+        }
+
+        .playFlex {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .playImg {
+            mix-blend-mode: multiply;
+        }
+
+        .subText {
+            font-size: 1.6rem;
+            color: #8D96B2;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            text-align: left;
+        }
+
+        .playBox>div>button {
+            text-align: left;
+        }
+
+        .playGrid {
+            display: grid;
+            // grid-template-rows: 1fr;
+            gap: 5rem;
+        }
+
+        .gridBox {
+            background-color: rgb(37 38 80 / 92%);
+            border: 1px solid rgb(165 160 181 / 47%);
+            border-radius: 3.2rem;
+            padding: 1.4rem 2rem;
+            text-align: left;
+            // max-width: 50%;
+        }
+
+        .count {
+            background: $gradient-blue;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 3.8rem;
+            font-weight: 700;
+        }
+
+        .count2 {
+            background: $gradient-pink;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 3.8rem;
+            font-weight: 700;
+        }
+
+        .gameText {
+            font-size: 1.6rem;
+            color: #8D96B2;
+        }
+
+        .gridBox1 {
+            background-color: rgb(37 38 80 / 92%);
+            border: 1px solid rgb(165 160 181 / 47%);
+            border-radius: 3.2rem;
+            padding: 1.4rem 2rem;
+            text-align: left;
+        }
+    }
+
+    .productSite {
+        margin-top: 10rem;
+
+        // position: relative;
+        .bgImg {
+            max-width: 80%;
+            margin: auto;
+            margin-top: 10% auto auto auto;
+        }
+
+        .productBox {
+            // position: absolute;
+            top: 0;
+            margin-top: 12%;
+
+        }
+
+        .productTitle {
+            color: $text-color;
+            font-size: 4.3rem;
+            font-weight: 700;
+            margin-bottom: 10rem;
+        }
+
+        .productCard {
+            padding: 5rem 3rem;
+            background: linear-gradient(360deg, rgb(5 19 69), rgba(2, 6, 23, 0.0823529412));
+            border-radius: 3.2rem;
+        }
+
+        .cardInfo {
+            font-size: 1.6rem;
+            color: $grey-text;
+            margin-top: 1rem;
+            text-align: left;
+        }
+
+        .cardImg {
+            border-radius: 2.4rem;
+        }
+
+        .cardTitle {
+            color: $text-color;
+            font-size: 2.4rem;
+            margin-top: 2.5rem;
+            text-align: left;
+        }
+
+        .productConatiner {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4rem;
+        }
+    }
+
+    .chainContainer {
+        margin-top: 10rem;
+
+        .chainBox {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+            justify-items: center;
+        }
+
+        .chainImg {}
+    }
+
+    .blog {
+
+        margin-top: 20rem;
+
+        .blogSubtitle {
+            color: $text-color;
+            font-size: 2.4rem;
+            max-width: 50%;
+            margin: 3rem auto;
+        }
+
+        .title {
+            margin: auto;
+        }
+    }
+
+    .blogCard {
+        background: linear-gradient(360deg, #050c27c0, #02061715);
+        // padding: 3rem;
+        text-align: left;
+        border-radius: 3rem;
+    }
+
+    .blogCard>img {
+        width: -webkit-fill-available;
+    }
+
+    .blogTitle {
+        color: $text-color;
+        font-size: 1.6rem;
+        margin: 2rem auto;
+    }
+
+    .blogInfo {
+        color: $grey-text;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .blogBox {
+        // display: flex;
+        margin-top: 6rem;
+    }
+
+    .review {
+
+        margin-top: 10rem;
+
+        .reviewBox {
+            // display: flex;
+            // gap: 20px;
+        }
+
+
+        .reviewBox>div {
+            border-radius: 30px;
+        }
+
+        .reviewText {
+            font-size: 1.6rem;
+            background-color: #0c1125;
+            color: $text-color;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .reviewer>div {
+            background-color: #4b0f75ec;
+            padding: 16px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .reviewerAvatar {
+            width: 32px;
+            height: 32px;
+            background-color: $grey-text;
+            border-radius: 20px;
+        }
+
+        .reviewerName {
+            color: $text-color;
+            text-transform: capitalize;
+            font-size: 16px;
+        }
+
+        .reviewerDetail {
+            font-size: 8px;
+            color: #9c9c9c;
+        }
+
+
+    }
+
+    .network {
+        margin-top: 10rem;
+        position: relative;
+
+        .networkImg {
+            max-width: 100%;
+            // margin: auto;
+        }
+
+        .joinNetwork {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .title {
+            margin-bottom: 4rem;
+        }
+
+        .btnFlex {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .believer {
+
+        margin-top: 10rem;
+
+        .believerLogo {
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid white;
+            background-color: rgb(34 30 50 / 82%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .believerFlex {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3rem;
+        }
+    }
+
+    .lync {
+        margin-top: 9rem;
+        text-align: center;
+        font-size: 8rem;
+        // position: relative;
+
+        .lyncText {
+            background: linear-gradient(to bottom, #747373 0%, #2423234d 53%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 16rem;
+            font-weight: bolder;
+            // position: relative;
+        }
+
+        .lyncBox {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+
+        .btnFlex {
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .title {
+            margin-bottom: 2rem;
+        }
+    }
+
+    footer {
+
+        margin-top: 20rem;
+
+        .socialLinks {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .footerFlex {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footerLinks {
+            display: flex;
+            text-align: left;
+            gap: 3rem;
+        }
+
+        .footerLogo {
+            font-size: 3.2rem;
+            color: $text-color;
+            margin-bottom: 3rem;
+        }
+
+        .footerInfo {
+            font-size: 1.8rem;
+            color: $text-color;
+            margin-bottom: 3rem;
+        }
+
+        .social {
+            width: 6rem;
+            height: 6rem;
+            background-color: #2c1b3985;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: .5px solid white;
+        }
+
+        .footerLinks>ul {
+            color: $text-color;
+            font-size: 1.8rem;
+            list-style: none;
+        }
+
+        .footerLinks>ul>li {
+            font-size: 1.6rem;
+            color: $grey-text;
+            list-style: none;
+            margin-top: 2rem;
+
+        }
+
+
+        .newletter {
+            color: $text-color;
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+        }
+
+        .newletterText {
+            color: $grey-text;
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+
+        }
+
+        .inputBox {
+            padding: 2rem;
+            background-color: #444446b8;
+            border-radius: 3rem;
+            color: $grey-text;
+            border: 0.3px solid white
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 601px) and (max-width:1000px) {
+
+    /* Tablet styles */
+    html {
+        font-size: 55%;
+    }
+
+
+    .home {
+        padding: 6.2rem 8.4rem;
+
+
+        .mainContent {
+            padding: 0%;
+        }
+
+        .productSite .productConatiner {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .believer {
+            .believerFlex {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .blog {
+            .blogSubtitle {
+                max-width: none;
+            }
+        }
+
+        .gamePlay {
+            display: block;
+
+            .playBox {
+                padding: 0 0 0 4rem;
+                justify-content: space-between;
+                text-align: left;
+                align-items: center;
+                margin-bottom: 3rem
+            }
+
+            .gridBox {
+                max-width: none;
+
+            }
+
+            .gridBox1 {
+                width: -webkit-fill-available;
+            }
+        }
+
+        .powerUp {
+            .assetImg {
+                width: 60%;
+                right: -18%;
+            }
+        }
+
+        .blockchain {
+            .blockFlex {
+                grid-template-columns: repeat(3, auto);
+            }
+        }
+
+        footer {
+            .footerFlex {
+                display: grid;
+                grid-template-columns: auto auto;
+
+            }
+
+            .newsLetter {
+                margin-top: 30px
+            }
+        }
+
+        .provides {
+            .providesText {
+                max-width: none;
+            }
+        }
+
+        .heading {
+            .mainHeading {
+                font-size: 6rem;
+            }
+
+            .mainHeading2 {
+                font-size: 6rem;
+            }
+
+            .head {
+                top: 50;
+            }
+        }
+
+        .backedBy {
+            margin-top: 10rem;
+        }
+
+       .navBar{
+            .navFlex {
+                display: none;
+            }
+
+            .hamburger {
+                display: block;
+                fill: white;
+                height: 20px;
+                width: 28px;
+            }
+
+            .menu {
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-color: rgb(0, 0, 0);
+                // height: 100%;
+                width: 200px;
+                color: white;
+                padding: 20px 20px;
+                transition: transform 0.3s ease;
+                z-index: 10;
+              }
+              
+              .menu ul {
+                list-style-type: none;
+                padding: 0;
+              }
+              
+              .menu ul li {
+                margin: 20px 0;
+              }
+              
+              .menu ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 12px;
+              }
+              
+              .menu ul li a:hover {
+                color: #f1f1f1;
+              }
+    
+              .close-button {
+                background-color: transparent;
+                border: none;
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+              }
+        }
+
+
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 600px) {
+
+    /* Mobile styles */
+    html {
+        font-size: 45%;
+    }
+
+    .home {
+        padding: 2.9rem 2.8rem;
+        .secBtn{
+            max-width: none;
+            gap: 0px;
+        }
+
+        .mainContent {
+            padding: 0%;
+        }
+
+        nav {
+
+            .navFlex {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+                fill: white;
+                width: 24px;
+                height: 20px;
+            }
+
+            .menu {
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-color: rgb(0, 0, 0);
+                // height: 100%;
+                width: 200px;
+                color: white;
+                padding: 20px 20px;
+                transition: transform 0.3s ease;
+                z-index: 10;
+              }
+              
+              .menu ul {
+                list-style-type: none;
+                padding: 0;
+              }
+              
+              .menu ul li {
+                margin: 20px 0;
+              }
+              
+              .menu ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 12px;
+              }
+              
+              .menu ul li a:hover {
+                color: #f1f1f1;
+              }
+    
+              .close-button {
+                background-color: transparent;
+                border: none;
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+              }
+        }
+
+        .believer{
+           .believerFlex{
+            grid-template-columns: repeat(2, 1fr);
+           }
+        }
+
+        .network{
+           .title{
+            font-size: 2.6rem;
+            margin-bottom: 2rem;
+           }
+        }
+
+        .blog{
+            .blogSubtitle{
+                max-width: 100%;
+            }
+
+            .blogBox{
+                padding: 0 20px;
+            }
+        }
+
+        .chainContainer{
+        .chainBox{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+        }}
+
+        .product{
+            .productConatiner{
+                grid-template-columns: auto;
+            }
+
+            .productCard{
+                padding: 0;
+                background-color:#02061700;
+                background:none;
+            }
+
+            .cardImg{
+                display: none;
+            }
+        }
+
+        .gamePlay{
+            display: block;
+            .playImg{
+                max-width: 60%;
+            }
+            .playGrid{
+                gap: 20px;
+            }
+
+            .playFlex{
+                display: block;
+                margin-top: 20px;
+            }
+            .gridBox1{
+                margin-top: 20px;
+            }
+
+        }
+
+        .powerUp{
+            .assetImg{
+                display: none;
+            }
+
+            li{
+                list-style: none;
+            }
+        }
+
+        .blockchain{
+            .blockFlex{
+                display: grid;
+                grid-template-columns: repeat(3, auto);
+            }
+
+            .blockFlex>img{
+                width: 100px;
+        }
+
+      
+    }
+
+    .provides{
+        .line1
+        .line2{
+             width: 100%;
+         }
+
+         .provideText{
+            // justify-self: auto;
+            max-width:100%;
+         }
+    }
+
+    .backedBy{
+
+        margin-top: 10rem;
+        .backdBox>img{
+            max-width: 100px;
+        }
+    }
+
+    .heading{
+        .mainHeading{
+            font-size: 4.5rem;
+        }
+
+        .mainHeading2{
+            font-size: 4.5rem;
+            white-space: normal;
+        }
+
+        .head{
+            top: 50%;
+        }
+
+        .subHeading{
+            line-height: 1.4;
+        }
+
+        
+        .btnFlex{
+            display: block;
+            // justify-content: center;
+            margin: 20rem 0 10rem 0;
+        }
+        .btnFlex2{
+            justify-content: center;
+            margin-top: 2rem;
+            text-transform: capitalize;
+        }
+
+        .secBtn{
+            width: 100%;
+            max-width: 100%;
+            justify-content: center;
+        }
+        
+    }
+    footer {
+        .footerFlex {
+            display: grid;
+            grid-template-columns: auto ;
+            gap: 50px;
+            justify-content: center;
+
+        }
+
+        .socialLinks{
+            justify-content: center;
+        }
+
+        .footerLinks{
+            justify-content: center;
+        }
+
+        .newsLetter{
+            margin-bottom:20px;
+        }
+    }
+
+    .review{
+        padding: 0 20px;
+    }
+
+
+    
+}}
