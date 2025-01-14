@@ -16,14 +16,17 @@ npm -v
 If you see version numbers, you're good to go!
 
 * Installation
+
 1.Clone the repository:
 
 If you haven't already, clone this repository to your local machine using Git:
 
 git clone https://github.com/ishitajain-web/LYNC-UI-Developer-Task-Ishita-Jain.git
 
+
 2.navigate into project run command: 
 cd lync
+
 
 3.Run the following command to install all the required dependencies:
 npm install
