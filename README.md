@@ -13,7 +13,6 @@ You can verify if Node.js and npm are installed by running the following command
 node -v
 npm -v
 
-You can verify if Node.js and npm are installed by running the following commands in your terminal:
 If you see version numbers, you're good to go!
 
 * Installation
