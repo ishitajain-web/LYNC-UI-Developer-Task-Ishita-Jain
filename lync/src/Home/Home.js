@@ -187,7 +187,7 @@ function Home() {
     };
     return (
         <div className='home'>
-            {/* <img className='bgGrid' src={Grid} alt="grid" width="100%" height="100%" /> */}
+            {/* <img alt=""className='bgGrid' src={Grid} alt="grid" width="100%" height="100%" /> */}
             <div className='mainContent'>
                 <nav className='navBar'>
                     {/* <div> */}
@@ -231,7 +231,7 @@ function Home() {
                 </nav>
                 <div className='heading'>
                     <div>
-                        <img className='BackgroundHead'
+                        <img alt=""className='BackgroundHead'
                             src={BackgroundHead}
                         />
                         <div className='head'>
@@ -246,13 +246,13 @@ function Home() {
                         </div>
                         <div className='btnFlex'>
                             <button className='secBtn' width='24px'>Get Started
-                                <img className='rightArrow' src={RightArrow} />
+                                <img alt=""className='rightArrow' src={RightArrow} />
                             </button>
                             <div className='btnFlex2'>
                                 <div className='tertiaryBtn'>
                                     view Docs
                                 </div>
-                                <img src={RightArrow} width='24px' />
+                                <img alt=""src={RightArrow} width='24px' />
                             </div>
                         </div>
                     </div>
@@ -260,27 +260,27 @@ function Home() {
                 <div className='backedBy' >
                     <p>Backed by</p>
                     <div className='backdBox'>
-                        <img src={backedImg1} />
-                        <img src={backedImg2} />
-                        <img src={backedImg3} />
+                        <img alt=""src={backedImg1} />
+                        <img alt=""src={backedImg2} />
+                        <img alt=""src={backedImg3} />
 
                     </div>
                 </div>
                 <div className='provides'>
-                    <img style={{ width: '100%' }} src={Line1} className='line1' />
+                    <img alt=""style={{ width: '100%' }} src={Line1} className='line1' />
                     <p className='provideText'>LYNC provides a scalable infrastructure for launching web3 games, without hampering the <span className='blueText'> gaming experience.</span><br />So that you can deliver the next big hit!</p>
-                    <img style={{ width: '100%' }} src={Line2} className='line2' />
+                    <img alt=""style={{ width: '100%' }} src={Line2} className='line2' />
                 </div>
                 <div className='blockchain'>
                     <div>
-                        {/* <img className='bgImg' src={bg} /> */}
+                        {/* <img alt=""className='bgImg' src={bg} /> */}
                         <div className='box'>
                             <p className='blockchainText'>Making blockchain gaming<p className='blueText'>accessible to everyone!</p>
                             </p>
                             <div className='blockFlex'>
                                 {company.map((item) => (<>
 
-                                    <img width={200}
+                                    <img alt=""width={180} style={{maxHeight: "100%"}}
                                         src={item.img}></img>
                                 </>))}
                             </div>
@@ -299,11 +299,11 @@ function Home() {
                                     <li className='text'>Save Up to $500K+ on Salaries & Smart Contract Auditing</li>
                                     <li className='text'>Go Cross-Chain in a few clicks</li>
                                 </ul>
-                                <img className='assetImg' src={Asset} />
+                                <img alt=""className='assetImg' src={Asset} />
                             </div>
                         </div>
                     </div>
-                    {/* <img className='bgImg' src={bg} /> */}
+                    {/* <img alt=""className='bgImg' src={bg} /> */}
                 </div>
                 <div className='gamePlay'>
                     <div className='playBox'>
@@ -312,7 +312,7 @@ function Home() {
                             <p className='subText'>Unleash Your Potential - Explore<br /> the Knowledge Hub Today!</p>
                             <button className='primaryBtn'>View Docs</button>
                         </div>
-                        <img className='playImg' src={Game} />
+                        <img alt=""className='playImg' src={Game} />
                     </div>
                     <div className='playFlex'>
                         <div className='playGrid'>
@@ -335,14 +335,14 @@ function Home() {
                 </div>
                 <div className='product'>
                     <div className='productSite'>
-                        {/* <img className='bgImg' src={bg} /> */}
+                        {/* <img alt=""className='bgImg' src={bg} /> */}
                         <div className='productBox'>
                             <p className='productTitle' >Product <span className='blueText'>Site</span> </p>
                             <div className='productConatiner'>
                                 {ProductData.map((item) => (
                                     <div>
                                         <div className='productCard'>
-                                            <img className='cardImg' src={item.cardImg} />
+                                            <img alt=""className='cardImg' src={item.cardImg} />
                                             <div></div>
                                             <p className='cardTitle'>{item.cardTitle}</p>
                                             <p className='cardInfo'>{item.cardInfo}</p>
@@ -357,7 +357,7 @@ function Home() {
                     <p className='title'>With LYNC, build on your favorite chain.</p>
                     <div className='chainBox'>
                         {chainData.map((item) => (
-                            <img className='chainImg' width="150px" src={item.img}></img>
+                            <img alt=""className='chainImg' width="150px" src={item.img}></img>
                         ))}
                     </div>
                 </div>
@@ -371,7 +371,7 @@ function Home() {
                             {blogData.map((item) => (
 
                                 <div className='blogCard'>
-                                    <img width="200px" src={item.img} />
+                                    <img alt=""width="200px" src={item.img} />
                                     <div style={{ padding: "0 3rem 3rem 3rem" }}>
                                         <p className='blogTitle'>{item.blogTitle}</p>
                                         <p className='blogInfo'>{item.blogInfo}</p>
@@ -407,12 +407,12 @@ function Home() {
 
                 </div>
                 <div className='network'>
-                    <img className='networkImg' src={Image99} />
+                    <img alt=""className='networkImg' src={Image99} />
                     <div className='joinNetwork'>
                         <div className='title'>strong web 3 <p className='blueText'>Community</p> </div>
                         <div className='btnFlex'>
                             <button className='secBtn' width='24px'>JOin Telegram
-                                <img className='rightArrow' src={RightArrow} />
+                                <img alt=""className='rightArrow' src={RightArrow} />
                             </button>
                         </div>
                     </div>
@@ -422,7 +422,7 @@ function Home() {
                     <div className='believerFlex'>
                         {believer.map((item) => (
                             <div className='believerLogo'>
-                                <img width={100} src={item.img} />
+                                <img alt=""width={100} src={item.img} />
                             </div>
                         ))}
                     </div>
@@ -436,7 +436,7 @@ function Home() {
                                 <p className='title'>Let's make it big together !!!</p>
                                 <div className='btnFlex'>
                                     <button className='secBtn' width='24px'>Join Telegram
-                                        <img className='rightArrow' src={RightArrow} />
+                                        <img alt=""className='rightArrow' src={RightArrow} />
                                     </button>
                                 </div>
                             </div>
@@ -459,13 +459,13 @@ function Home() {
                             <p className='footerInfo'>A GameFi Infrastructure</p>
                             <div className='socialLinks'>
                                 <div className='social'>
-                                    <img width="38" src='https://img.icons8.com/?size=100&id=98960&format=png&color=FFFFFF' />
+                                    <img alt=""width="38" src='https://img.icons8.com/?size=100&id=98960&format=png&color=FFFFFF' />
                                 </div>
                                 <div className='social'>
-                                    <img width="38" src='https://img.icons8.com/?size=100&id=8824&format=png&color=FFFFFF' />
+                                    <img alt=""width="38" src='https://img.icons8.com/?size=100&id=8824&format=png&color=FFFFFF' />
                                 </div>
                                 <div className='social'>
-                                    <img width="38" src='https://img.icons8.com/?size=100&id=59813&format=png&color=FFFFFF' />
+                                    <img alt=""width="38" src='https://img.icons8.com/?size=100&id=59813&format=png&color=FFFFFF' />
                                 </div>
                             </div>
                         </div>

@@ -407,6 +407,7 @@
 }
 .home .productSite .cardImg {
   border-radius: 2.4rem;
+  max-width: 100%;
 }
 .home .productSite .cardTitle {
   color: #FFFFFF;
@@ -638,7 +639,6 @@
   }
   .home .productSite .productConatiner {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
   }
   .home .believer .believerFlex {
     grid-template-columns: repeat(3, 1fr);

@@ -511,6 +511,7 @@ $gradient-blue : linear-gradient(45deg, #2c92ff, #280eed);
 
         .cardImg {
             border-radius: 2.4rem;
+            max-width: 100%;
         }
 
         .cardTitle {
@@ -860,7 +861,7 @@ $gradient-blue : linear-gradient(45deg, #2c92ff, #280eed);
 
         .productSite .productConatiner {
             grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
+            // gap: 2rem;
         }
 
         .believer {
